@@ -6,7 +6,7 @@ The project is presented in two distinct versions:
 1.  **Code 1 (Synthetic Environment):** A foundational proof-of-concept that operates in a fully controlled, procedurally generated world.
 2.  **Code 2 (Real-World Application):** A practical, advanced version that is modified to load real-world Digital Elevation Model (DEM) data and perform a realistic survey mission.
 
-## 🚀 Features
+## Features
 
 * **UAV Kinematics:** Simulates a fixed-wing UAV following a 3-DOF kinematic model.
 * **Waypoint Guidance:** Implements a P-controller for yaw to follow a pre-defined list of waypoints.
@@ -53,12 +53,12 @@ This code is a significant upgrade, modified for a practical, real-world mission
 | **Data Handling** | Dynamic Concatenation (Inefficient) | Pre-allocation (Efficient) |
 | **Primary Goal** | Validate core guidance & sensor logic | Rehearse a practical, large-scale survey mission |
 
-## ⚙️ Requirements
+## Requirements
 
 * **MATLAB** (e.g., R2021b or newer)
 * **Mapping Toolbox** (This is **required** for Code 2 to run the `readgeoraster` function)
 
-## ▶️ How to Run
+## How to Run
 
 ### Code 1 (Synthetic Environment)
 
@@ -117,5 +117,6 @@ This code is a significant upgrade, modified for a practical, real-world mission
    
 3.  **Data File:** `uav_lidar_map.csv` containing the `[X, Y, Z]` coordinates of every point in the generated map.
 
+<br>
 
 Inspired by [Airborne LiDAR, archaeology, and the ancient Maya landscape at Caracol, Belize](https://www.sciencedirect.com/science/article/abs/pii/S0305440310003286?via%3Dihub)
